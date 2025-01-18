@@ -7,9 +7,8 @@ PrakritiMart is a web-based platform designed for sustainable shopping. This pro
 - [Pages](#pages)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Wireframes](#wireframes)
-- [Screenshots](#screenshots)
-- [Deployment](#deployment)
+- [How to View}(#How to View)
+- [Contributing](#Contributing)
 
 ---
 
