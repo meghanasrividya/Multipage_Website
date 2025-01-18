@@ -69,6 +69,10 @@ PrakritiMart is a web-based platform designed for sustainable shopping. This pro
 3. **Open in Browser**:
 - Simply open the HTML files (e.g., `index.html`) in any modern browser to view the website.
 
+## How to View
+Visit my portfolio online: [My Live Portfolio URL](https://meghanasrividya.github.io/Mutlipage_Website/)
+
+
 ## Contributing
 
 If you'd like to contribute to this project, feel free to submit a **pull request** with your proposed changes. 
