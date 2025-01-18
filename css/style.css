@@ -513,62 +513,49 @@ checkout {
 }
 
 /* Add icons using pseudo-elements */
-.form-group label {
-    position: relative;
-    padding-left: 30px;
+.checkout-form {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.form-group label::before {
-    content: '';
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    font-size: 18px;
-    color: #555;
-}
-
-/* Icons before each input field */
-#full-name::before {
-    content: ''; /* User icon */
-}
-
-#address::before {
-    content: '\f041'; /* Home icon */
-}
-
-#city::before {
-    content: '\f3c5'; /* City icon */
-}
-
-#state::before {
-    content: '\f0c0'; /* Map pin icon */
-}
-
-#zip::before {
-    content: '\f3c0'; /* Zip code icon */
-}
-
-#card-name::before {
-    content: '\f09d'; /* Credit card icon */
-}
-
-#card-number::before {
-    content: '\f09d'; /* Credit card icon */
-}
-
-#expiry-date::before {
-    content: '\f133'; /* Calendar icon */
-}
-
-#cvv::before {
-    content: '\f023'; /* Lock icon */
-}
 .form-group {
+    margin-bottom: 30px;
+}
+
+.form-group h3 {
+    margin-bottom: 20px;
+}
+
+.input-container {
+    position: relative;
     margin-bottom: 15px;
 }
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #888;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px; /* Space for the icon */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+    .form-group {
+        margin-bottom: 15px;
+    }
 
 label {
     display: block;
