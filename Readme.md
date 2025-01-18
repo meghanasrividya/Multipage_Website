@@ -7,7 +7,9 @@ PrakritiMart is a web-based platform designed for sustainable shopping. This pro
 - [Pages](#pages)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
+- [Wireframes](#wireframes)
 - [Screenshots](#screenshots)
+- [Deployment](#deployment)
 
 ---
 
@@ -22,33 +24,28 @@ PrakritiMart is a web-based platform designed for sustainable shopping. This pro
 
 ## Pages
 
-### 1. **Cart Page**
-**File**: `cart.html`  
-**Description**: 
-- Displays items in the cart with product name, price, quantity, and total.
-- Includes options to adjust item quantities and remove items.
-- Summarizes the cart with subtotal, tax, and total price.
-- A "Proceed to Checkout" button navigates to the checkout page.
+### 1. **Home Page** (`index.html`)
+- Introduction to **PrakritiMart** with a sustainable shopping banner.
+- Links to product pages, cart, checkout, and contact.
+- Describes the key features of the platform.
 
-### 2. **Checkout Page**
-**File**: `checkout.html`  
-**Description**:
-- Collects user shipping and payment details.
-- Includes form fields for:
-  - Full Name, Address, City, State, and ZIP Code.
-  - Cardholder Name, Card Number, Expiry Date, and CVV.
-- Displays an order summary with item count and total price.
+### 2. **Products Page** (`product.html`)
+- Displays a grid of eco-friendly products available for purchase.
+- Each product includes an image, description, and price, with an "Add to Cart" button.
 
-### 3. **Contact Us Page**
-**File**: `contact.html`  
-**Description**:
-- Allows users to reach out with inquiries or feedback.
-- Form includes:
-  - Full Name
-  - Email Address
-  - Subject
-  - Message
-- Uses **FontAwesome** icons for enhanced visuals.
+### 3. **Cart Page** (`cart.html`)
+- Shows the items added to the cart with product name, price, quantity, and total.
+- Provides options to remove items and update quantities.
+- Includes a summary of the cart and a "Proceed to Checkout" button.
+
+### 4. **Checkout Page** (`checkout.html`)
+- Form for users to input shipping and payment details.
+- Order summary is displayed, including items and total price.
+- "Place Order" button to finalize the transaction.
+
+### 5. **Contact Us Page** (`contact.html`)
+- A simple contact form for inquiries or feedback.
+- Includes fields for full name, email address, subject, and message.
 
 ---
 
@@ -62,8 +59,12 @@ PrakritiMart is a web-based platform designed for sustainable shopping. This pro
 
 ## Setup Instructions
 
-1. **Download the files**:
-   - Download all HTML and CSS files.
-   - Ensure the project folder structure is consistent with the links in the HTML files.
+1. **Download the Files**:
+   - Clone or download the project files to your local machine.
+   - Ensure the folder structure is maintained as it is for proper linking (e.g., CSS files in the `css` folder).
 
 2. **Folder Structure**:
+   /prakriti-mart /images /css style.css index.html product.html cart.html checkout.html contact.html
+
+
+
