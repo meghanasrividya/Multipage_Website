@@ -69,5 +69,14 @@ PrakritiMart is a web-based platform designed for sustainable shopping. This pro
 3. **Open in Browser**:
 - Simply open the HTML files (e.g., `index.html`) in any modern browser to view the website.
 
+## Contributing
+
+If you'd like to contribute to this project, feel free to submit a **pull request** with your proposed changes. 
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -am 'Add feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
 
 
