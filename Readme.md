@@ -64,7 +64,7 @@ PrakritiMart is a web-based platform designed for sustainable shopping. This pro
    - Ensure the folder structure is maintained as it is for proper linking (e.g., CSS files in the `css` folder).
 
 2. **Folder Structure**:
-   /prakriti-mart /images /css style.css index.html product.html cart.html checkout.html contact.html
+   /Multipage-Website /images /css style.css index.html product.html cart.html checkout.html contact.html
 
 3. **Open in Browser**:
 - Simply open the HTML files (e.g., `index.html`) in any modern browser to view the website.
