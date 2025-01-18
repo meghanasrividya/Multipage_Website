@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - PrakritiMart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/Sustainable.jpg" alt="Eco Icon" class="logo-icon">
+                <span class="logo-text">PrakritiMart</span> <span class="by-meghana">by Meghana</span>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="cart.html" class="active">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h2>Your Cart</h2>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample Cart Item -->
+                    <tr>
+                        <td>Cotton Bag</td>
+                        <td>£4.99</td>
+                        <td>
+                            <input type="number" min="1" value="1" class="quantity-input">
+                        </td>
+                        <td>£4.99</td>
+                        <td><button class="remove-item">Remove</button></td>
+                    </tr>
+                    <!-- Add more items dynamically through JavaScript -->
+                </tbody>
+            </table>
+            <div class="cart-summary">
+                <p><strong>Subtotal:</strong> £4.99</p>
+                <p><strong>Tax:</strong> £0.50</p>
+                <p><strong>Total:</strong> £5.49</p>
+                <button class="checkout-button">Proceed to Checkout</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PrakritiMart. All rights reserved.</p>
+    </footer>
+</body>
+</html>
