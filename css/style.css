@@ -74,10 +74,10 @@ header .navbar ul li a:hover {
 }
 /* Logo Section */
 .logo {
-    display: flex;
-    align-items: center;
+    display: flex;/* Flexbox for horizontal alignment */
+    align-items: center; /* Center items vertically */
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     color: #4CAF50; /* Green color for eco-friendliness */
 }
 
@@ -92,17 +92,17 @@ header .navbar ul li a:hover {
 }
 
 .by-meghana {
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: var(--accent-color);
-    margin-left: 8px;
-    text-transform: lowercase;
+    font-size: 0.8rem;/* Small font size for tagline */
+    font-weight:var(--font-weight-regular);  /* Regular font weight */
+    color: var(--accent-color);       /* White color */
+    margin-left: 8px;                /* Space between tagline and logo-text */
+    text-transform: lowercase;  /* Use lowercase for distinct style */
 }
 
 
 .logo {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: var(--font-weight-bold);
     color: #af4c60; /* Green for eco-friendly touch */
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -134,7 +134,6 @@ header .navbar ul li a:hover {
 
 /* Banner Section */
 /* Ensure the banner section has position relative */
-/* Ensure the banner section has position relative */
 .banner {
     position: relative;
     width: 100%;
@@ -143,8 +142,8 @@ header .navbar ul li a:hover {
 
 /* Style the banner image */
 .banner-image {
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Full width image */
+    height: 100%; /* Full height image */
     object-fit: cover; /* Makes sure the image covers the entire section */
 }
 
@@ -152,7 +151,7 @@ header .navbar ul li a:hover {
 .banner-content {
     font-family: 'Arial', Helvetica, sans-serif;
     font-size: 36px; /* Large font size for prominence */
-    position: absolute;
+    position: absolute;  /* Positioned over the banner image */
     left: 50%;
     transform: translateX(-50%);
     color: rgb(21, 192, 38); /* Makes text stand out on image */
@@ -194,25 +193,27 @@ header .navbar ul li a:hover {
         font-size: 16px; /* Adjust button size for mobile */
     }
 }
-/* Why Shop With Us Section */
+/* ===== Why Shop With Us Section ===== */
+/* General styling for the "Why Shop With Us" section */
 .why-shop-with-us {
-    padding: 80px 20px;
-    background-color: var(--accent-color);
-    text-align: center;
+    padding: 80px 20px;/* Top/bottom and left/right padding for spacing */
+    background-color: var(--accent-color);/* White background color */
+    text-align: center;/* Center-align all text */
 }
 
 .why-shop-with-us h2 {
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-size: 2.5rem;/* Large font size for headings */
+    margin-bottom: 40px;/* Space below the heading */
+    font-weight: var(--font-weight-bold);/* Bold text */
+    text-transform: uppercase;/* Make text all uppercase */
 }
-
+/* ===== Features Section ===== */
+/* Layout styling for the features list */
 .features {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 40px;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-evenly; /* Equal spacing between items */
+    flex-wrap: wrap;/* Wrap items to the next row if needed */
+    gap: 40px;/* Space between items */
 }
 
 .feature {
